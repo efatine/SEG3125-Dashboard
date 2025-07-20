@@ -81,7 +81,7 @@ function App() {
       legend: { display: false },
       title: {
         display: true,
-        text: t('bar_chart_title', { province: selectedProvince === 'All' ? t('all_provinces') : selectedProvince }),
+        text: t('bar_chart_title', { province: selectedProvince === 'All' ? t('all_provinces') : t(selectedProvince) }),
         font: { size: 18, family: 'Inter', weight: '600' },
         color: '#f0f0f0'
       },
@@ -148,11 +148,11 @@ function App() {
             value={selectedProvince}
             onChange={(e) => {
                 setSelectedProvince(e.target.value)
-                setSelectedUniversity(null);
+                setSelectedUniversity(null); // Reset pie chart when province changes
             }}
           >
             {provinces.map(prov => (
-              <option key={prov} value={prov}>{prov === 'All' ? t('all_provinces') : prov}</option>
+              <option key={prov} value={prov}>{prov === 'All' ? t('all_provinces') : t(prov)}</option>
             ))}
           </select>
         </div>

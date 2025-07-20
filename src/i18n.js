@@ -15,7 +15,11 @@ const resources = {
       "part_time_undergrad": "PT Undergrad",
       "footer_note": "Note: All data is synthetically generated for demonstration purposes only.",
       "controls_title": "Dashboard Controls",
-      "click_for_details": "Click a bar to see details"
+      "click_for_details": "Click a bar to see details",
+      "Ontario": "Ontario",
+      "Quebec": "Quebec",
+      "British Columbia": "British Columbia",
+      "Alberta": "Alberta"
     }
   },
   fr: {
@@ -31,7 +35,11 @@ const resources = {
       "part_time_undergrad": "1er cycle TPartiel",
       "footer_note": "Note : Toutes les données sont générées synthétiquement à des fins de démonstration.",
       "controls_title": "Contrôles du tableau de bord",
-      "click_for_details": "Cliquez sur une barre pour voir les détails"
+      "click_for_details": "Cliquez sur une barre pour voir les détails",
+      "Ontario": "Ontario",
+      "Quebec": "Québec",
+      "British Columbia": "Colombie-Britannique",
+      "Alberta": "Alberta"
     }
   }
 };
